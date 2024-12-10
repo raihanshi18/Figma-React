@@ -10,6 +10,7 @@ import Footer from '../components/Footer'
 const Home = () => {
     return (
     <>
+    <div className='bg-black'>
         <Header />
         <Banner />
         <WhatNew />
@@ -17,6 +18,7 @@ const Home = () => {
         <Esport />
         <Entertain />
         <Footer />
+    </div>
     </>
     )
 }
