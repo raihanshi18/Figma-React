@@ -1,8 +1,8 @@
 import React from "react";
-import item1 from "../assets/item.png";
-import item2 from "../assets/item (1).png";
-import item3 from "../assets/item (2).png";
-import item4 from "../assets/item (3).png";
+import item1 from "../assets/Item.png";
+import item2 from "../assets/Item (1).png";
+import item3 from "../assets/Item (2).png";
+import item4 from "../assets/Item (3).png";
 
 const Games = () => {
   return (
