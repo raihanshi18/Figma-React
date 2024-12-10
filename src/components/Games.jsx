@@ -12,7 +12,7 @@ const Games = () => {
         <img src={item1} alt="riot games" width={800} className=" cursor-pointer hover:outline outline-4 outline-white rounded-md"/>
         <img src={item2} alt="riot games" width={800} className=" cursor-pointer hover:outline outline-4 outline-white rounded-md"/>
         <img src={item3} alt="riot games" width={800} className=" cursor-pointer hover:outline outline-4 outline-white rounded-md"/>
-        <img src={item1} alt="riot games" width={800} className=" cursor-pointer hover:outline outline-4 outline-white rounded-md"/>
+        <img src={item4} alt="riot games" width={800} className=" cursor-pointer hover:outline outline-4 outline-white rounded-md"/>
       </div>
     </div>
   );   
