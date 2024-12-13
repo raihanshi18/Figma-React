@@ -8,7 +8,7 @@ import { SiRiotgames } from "react-icons/si";
 const Footer = () => {
   return (
     <div className=" bg-black text-white w-full">
-      <div className="flex flex-row justify-between max-hp:flex-col">
+      <div className="flex flex-row justify-between max-hp:flex-col max-sm:flex-col">
         <div className="flex flex-row gap-8 p-9 w-full">
           <SiRiotgames className="cursor-pointer hover:scale-150 hover:text-red-600"/>
           <h1 className="cursor-pointer hover:underline underline-offset-8">Lorem</h1>
@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="flex justify-center items-center ">
         <div className="w-[95%] h-[1px] bg-slate-500 mx-3"></div>
       </div>
-      <div className="flex flex-row justify-between p-9">
+      <div className="flex flex-row justify-between p-9 max-hp:text-xs max-sm:text-xs">
         <h1>© 2024 Riot Games, Inc. Kembali ke Atas.</h1>
         <h1 className="flex flex-row cursor-pointer ">
           KEMBALI KE ATAS <IoMdArrowDropup className="hover:text-red-600"/>
