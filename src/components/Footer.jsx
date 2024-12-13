@@ -7,12 +7,10 @@ import { SiRiotgames } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className=" bg-black text-white">
-      <div className="flex flex-row justify-between">
-        <div className="flex flex-row gap-8 p-9 ">
+    <div className=" bg-black text-white w-full">
+      <div className="flex flex-row justify-between max-hp:flex-col">
+        <div className="flex flex-row gap-8 p-9 w-full">
           <SiRiotgames className="cursor-pointer hover:scale-150 hover:text-red-600"/>
-          <h1 className="cursor-pointer hover:underline underline-offset-8">Lorem</h1>
-          <h1 className="cursor-pointer hover:underline underline-offset-8">Lorem</h1>
           <h1 className="cursor-pointer hover:underline underline-offset-8">Lorem</h1>
           <h1 className="cursor-pointer hover:underline underline-offset-8">Lorem</h1>
           <h1 className="cursor-pointer hover:underline underline-offset-8">Lorem</h1>
